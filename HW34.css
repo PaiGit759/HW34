@@ -1,0 +1,47 @@
+body{
+	width : 1000px;
+  height : 1000px;
+  background-color: rgb(203, 240, 242);
+}
+
+
+
+label.style_La1 {
+  font: 1rem 'Fira Sans', sans-serif;
+  font-weight: bold;
+  color: rgb(125, 15, 208);
+}
+
+p.style_p1 {
+  font: 1rem sans-serif;
+  font-style: italic;
+  color: rgb(195, 41, 6);
+}
+
+input.style_In1 {
+  display: inline;
+}
+
+input,
+label {
+  margin: .8rem 0;
+}
+
+.style_bu1 {
+  font: 1rem sans-serif;
+  color: rgb(82, 9, 156);
+  background-color: rgb(109, 244, 6);
+}
+
+.style_bu2 {
+  font: 1rem sans-serif;
+  color: rgb(18, 77, 229);
+  background-color: rgb(244, 105, 6);
+}
+
+.style_bu1:hover, .style_bu2:hover{
+  font: 1rem sans-serif;
+  color: rgb(18, 28, 3);
+  background-color: rgb(202, 230, 234);
+}
+

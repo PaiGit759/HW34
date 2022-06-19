@@ -1,0 +1,54 @@
+
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>HW34</title>
+  <link rel="stylesheet" href="HW34.css">
+  <link rel="icon" type="image/x-icon" href="mine.ico">
+</head>
+ <body >
+  <form action="">
+    <h1>REGISTRATION FORM</h1>
+    <p class = "style_p1">* Mandatory fields</p>
+  
+    <label class = "style_La1"> Name*</label>
+    <input class = "style_In1" type="text" name="" value="" minlength="4" maxlength="18" size="18" required>
+    <label  class = "style_La1"> Surname*</label>
+    <input type="text" name="" value="" minlength="4" maxlength="18" size="18" required><br>
+  
+    <label class = "style_La1">Company*</label>
+    <input type="text" name="" value="" minlength="2" size="30" required><br>
+
+    <label for="country" class = "style_La1">Choose Country from the list:*</label>
+    <input list="countrys" name="country" id="country" required>
+    <datalist id="countrys">
+      <option value="Sweden">
+      <option value="England">
+      <option value="Germany">
+      <option value="USA">
+      <option value="Ukraine">
+    </datalist>
+   
+
+    <label class = "style_La1">Phone*</label>
+    <input type="tel" name="telphone" placeholder="+99#-99#-999 99 99" pattern="[+0-9]{,4}-[0-9]{,3}-[0-9]{7}" 
+     maxlength="18"  title="Enter a phone number using the template" required /><br>
+     
+    <label class = "style_La1">Date of Birth:*</label>
+    <input type="date" name="" required><br>
+
+    <label class = "style_La1">Sex:*</label>
+    <label for="male">male</label>
+    <input type="radio" name="sex" id="male" value="male" required>
+    <label for="female">female</label>
+    <input type="radio" name="sex" id="female" value="female" required><br>
+
+    <input type="submit" value="Submit" class = "style_bu1">
+    <input type="reset" value="reset" class = "style_bu2">
+ 
+  </form> 
+
+ </body>
+</html>
+
